@@ -1,3 +1,3 @@
-# the-weather-groyp CODED FOR PYTHON 3
+# the-weather-groyp PYTHON 3
 
 #REQUIRES tkinter BeautifulSoup

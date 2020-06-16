@@ -1,6 +1,6 @@
 #**********FRONT-END FOR WEATHER GROYP APP*****************************
 #
-#**********MARVIS #140620***********************************************
+#**********MARVIS #140620**********************************************
 
 
 
@@ -9,6 +9,7 @@
 import tkinter as tk
 import tkinter.font as tkfont
 from datetime import date
+import pygame
 
 #NON-PUBLIC LIBRARIES
 from weather_functions import get_weather
@@ -106,9 +107,18 @@ draw_canvas(main_win_canvas, weather_results)
 
 
 
+#**********PLAY BACKGROUND MUSIC*************************************
+pygame.init() 
+main_music = pygame.mixer.music.load("g_song.wav")
+pygame.mixer.music.play(loops=-1)
+#********************************************************************
+
+
+
 #**********MAIN PROGRAM LOOP*****************************************
 main_win.mainloop()
 #********************************************************************
+
 
 
 #**********RELEASED TO GITHUB BY MARVIS 1601620**********************

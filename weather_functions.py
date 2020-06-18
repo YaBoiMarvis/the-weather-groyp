@@ -50,6 +50,6 @@ def get_weather(dictionary):
 
 
 
-#**********RELEASED TO GITHUB BY MARVIS 1601620**********************
+#**********RELEASED TO GITHUB BY MARVIS 160620**********************
 #https://github.com/YaBoiMarvis/the-weather-groyp
 #********************************************************************

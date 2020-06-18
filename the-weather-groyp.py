@@ -121,6 +121,6 @@ main_win.mainloop()
 
 
 
-#**********RELEASED TO GITHUB BY MARVIS 161620**********************
+#**********RELEASED TO GITHUB BY MARVIS 160620**********************
 #https://github.com/YaBoiMarvis/the-weather-groyp
 #********************************************************************
